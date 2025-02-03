@@ -7,25 +7,25 @@
 
 La interfaz `Operations` define el contrato que deben cumplir todas las pclases que gestionen operaciones CRUD sobre objetos **Empleado**. Los métodos definidos en la interfaz son los siguientes: 
 
-- `boolean create(Empleado empleado)`
+- **`boolean create(Empleado empleado)`**
 Crea y almacena un nuevo empleado. Retorna true si la operación fue exitosa y false si ocurrió algún error (por ejemplo, si el empleado ya existe o los datos son inválidos).
 
-- `Empleado read(String identificador)`
+- **`Empleado read(String identificador)`**
 Lee y retorna un empleado a partir de su identificador único. Si el identificador es nulo, vacío o no se encuentra el empleado, retorna null.
 
-- `Empleado read(Empleado empleado)`
+- **`Empleado read(Empleado empleado)`**
 Lee y retorna un empleado utilizando un objeto de tipo Empleado (generalmente se utiliza su identificador). Si el empleado pasado es nulo o sus datos no son válidos, retorna null.
 
-- `boolean update(Empleado empleado)`
+- **`boolean update(Empleado empleado)`**
 Actualiza la información de un empleado existente. Retorna true si la actualización se realizó correctamente y false en caso de error.
 
-- `boolean delete(String identificador)`
+- **`boolean delete(String identificador)`**
 Elimina un empleado a partir de su identificador. Retorna true si la eliminación fue exitosa y false en caso de error.
 
-- `Set<Empleado> empleadosPorPuesto(String puesto)`
+- **`Set<Empleado> empleadosPorPuesto(String puesto)`**
 Retorna un conjunto de empleados que ocupan un puesto de trabajo específico. Si el parámetro es nulo o vacío, retorna un conjunto vacío.
 
-- `Set<Empleado> empleadosPorEdad(String fechaInicio, String fechaFin)`
+- **`Set<Empleado> empleadosPorEdad(String fechaInicio, String fechaFin)`**
 Retorna un conjunto de empleados cuyos nacimientos se encuentran entre las fechas proporcionadas (formato "dd/MM/yyyy"). Si las fechas son inválidas o no se encuentran empleados en ese rango, retorna un conjunto vacío.
 
 ---
