@@ -1,0 +1,32 @@
+ identificador: '00004556J', nombre: 'Carlos', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '28/01/1987'
+ identificador: '1', nombre: 'Carlos', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '28/01/1987'
+ identificador: '2', nombre: 'Marta', puesto: 'Gerente', salario: '5500.0', fechaNacimiento: '21/11/1981'
+ identificador: '3', nombre: 'Angel', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '18/02/1999'
+ identificador: '1', nombre: 'Carlos', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '28/01/1987'
+ identificador: '2', nombre: 'Marta', puesto: 'Gerente', salario: '5500.0', fechaNacimiento: '21/11/1981'
+ identificador: '3', nombre: 'Angel', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '18/02/1999'
+ identificador: '4', nombre: 'Julia', puesto: 'Diseñador', salario: '1800.5', fechaNacimiento: '03/03/1977'
+ identificador: '1', nombre: 'Carlos', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '28/01/1987'
+ identificador: '2', nombre: 'Marta', puesto: 'Gerente', salario: '5500.0', fechaNacimiento: '21/11/1981'
+ identificador: '3', nombre: 'Angel', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '18/02/1999'
+ identificador: '4', nombre: 'Julia', puesto: 'Diseñador', salario: '1800.5', fechaNacimiento: '03/03/1977'
+ identificador: '1', nombre: 'Carlos', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '28/01/1987'
+ identificador: '2', nombre: 'Marta', puesto: 'Gerente', salario: '5500.0', fechaNacimiento: '21/11/1981'
+ identificador: '3', nombre: 'Angel', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '18/02/1999'
+ identificador: '4', nombre: 'Julia', puesto: 'Diseñador', salario: '1800.5', fechaNacimiento: '03/03/1977'
+ identificador: '1', nombre: 'Carlos', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '28/01/1987'
+ identificador: '2', nombre: 'Marta', puesto: 'Gerente', salario: '5500.0', fechaNacimiento: '21/11/1981'
+ identificador: '3', nombre: 'Angel', puesto: 'Desarrollador', salario: '1500.0', fechaNacimiento: '18/02/1999'
+ identificador: '4', nombre: 'Julia', puesto: 'Diseñador', salario: '1800.5', fechaNacimiento: '03/03/1977'
+1 Carlos Desarrollador 1500.0 28/01/1987 
+2 Marta Gerente 5500.0 21/11/1981 
+3 Angel Desarrollador 1500.0 18/02/1999 
+4 Julia Diseñador 1800.5 03/03/1977 
+1, Carlos Díaz, Desarrollador, 1500.0, 28/01/1987, 
+2, Marta López, Gerente, 5500.0, 21/11/1981, 
+3, Angel Hernández, Desarrollador, 1500.0, 18/02/1999, 
+4, Julia Santana, Diseñador, 1800.5, 03/03/1977, 
+1, Carlos Díaz, Desarrollador, 1500.0, 28/01/1987, 
+2, Marta López, Gerente, 5500.0, 21/11/1981, 
+3, Angel Hernández, Desarrollador, 1500.0, 18/02/1999, 
+4, Julia Santana, Diseñador, 1800.5, 03/03/1977, 
