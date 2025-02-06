@@ -1,6 +1,7 @@
 package es.ies.puerto;
 
 import java.util.Set;
+import java.util.TreeMap;
 
 import es.ies.puerto.model.Empleado;
 import es.ies.puerto.model.file.FileOperations;
@@ -45,40 +46,39 @@ public class EjemploEmpleado {
 
 
         //Actualizar un empleado.
-        //Empleado newUpdate = new Empleado("3", "Juan" , "Gerente", 5500.00, "16/05/1973");
-        //boolean actualizar = operacionesFicheros.update(newUpdate);
-        //System.out.println("Se han actualizado: " + actualizar);
-        //System.out.println("Confirmación: " + operacionesFicheros.read("3"));
+        Empleado newUpdate = new Empleado("3", "Juan Díaz" , "Gerente", 5500.00, "16/05/1973");
+        boolean actualizar = operacionesFicheros.update(newUpdate);
+        System.out.println("Se han actualizado: " + actualizar);
+        System.out.println("Confirmación: " + operacionesFicheros.read("3"));
 
 
-        /**Borrar un empleado.
+        //Borrar un empleado.
         boolean borrar = operacionesFicheros.delete("1");
         Empleado empEliminado = operacionesFicheros.read("1");
 
         //Listar un empleado.
-        //Empleado empleadolistar = operacionesFicheros.read("1");
-        //System.out.println("Información del empleado: " + empleadolistar);
+        Empleado empleadolistar = operacionesFicheros.read("1");
+        System.out.println("Información del empleado: " + empleadolistar);
     
 
         //Listar empleados por puestos de trabajo.
-        /**Set<Empleado> listaPorPuesto = operacionesFicheros.empleadosPorPuesto("Desarrollador");
+        TreeMap<String, Empleado> listaPorPuesto = operacionesFicheros.empleadosPorPuesto("Desarrollador");
             if (listaPorPuesto.isEmpty()){
                 System.out.println("No se encontraron empleados con ese puesto");
             } else {
-                for (Empleado e : listaPorPuesto) {
+                for (Empleado e : listaPorPuesto.values()) {
                     System.out.println(e);
                 }
             }
 
         //Listar empleados con edad comprendida entre dos fechas dadas.
-       /** Set<Empleado> listaPorFechas = operacionesFicheros.empleadosPorEdad("01/01/1970", "01/01/1988");
+        TreeMap<String, Empleado> listaPorFechas = operacionesFicheros.empleadosPorEdad("01/01/1970", "01/01/1988");
             if(listaPorFechas.isEmpty()){
                 System.out.println("No se han encontrado personas entre esas fechas.");
             } else {
-                for (Empleado emp : listaPorFechas) {
+                for (Empleado emp : listaPorFechas.values()) {
                     System.out.println(emp);
                 }
             }
-                */ 
     }
 }
